@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1270px;
+    margin: 0 auto;
+}
+
+.nav {
+    height: 95px;
+    border-bottom: 1px solid #e2e3ef;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.nav a {
+    cursor: pointer;
+}
+
+.nav img {
+    margin-right: 10px;
+}
+
+.menu {
+    margin-left: 200px;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu a {
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #07040c;
+}
+
+.menu__reg {
+    margin-left: 200px;
+}
+
+.mav__enter {
+    cursor: pointer;
+    width: 80px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    border: 1px solid rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 90px;
+}
+
+.header__heading {
+    width: 614px;
+}
+
+.header__heading h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 69px;
+    margin-bottom: 30px;
+}
+
+.header__heading p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #585967;
+    width: 510px;
+}
+
+.header__heading span {
+    color: #f35a05;
+}
+
+.header__pic {
+    width: 620px;
+    height: 460px;
+    background-image: url("../img/general_pic.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.header__btn {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    width: 220px;
+    height: 60px;
+    background-color: #f35a05;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.header__btn p {
+    display: inline-block;
+    margin-left: 30px;
+    width: 220px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #808296;
+}
+
+.advantages {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 130px;
+}
+
+.advantages__item {
+    width: 200px;
+}
+
+.advantages__item img {
+    height: 82px;
+    margin-bottom: 20px;
+}
+
+.advantages__item h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.advantages__item p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #585967;
+}
